@@ -1,4 +1,4 @@
-n  = int(input("So sao 1 canh"))
+n  = int(input("So sao 1 canh: "))
 numb = n % 2
 for i1 in range (n):
     print("*",end="")
