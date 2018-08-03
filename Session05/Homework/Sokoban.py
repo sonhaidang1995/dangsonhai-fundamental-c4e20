@@ -123,4 +123,4 @@ while playing:
                 player["x"] -= dx
                 player["y"] -= dy
 
-# Vẫn lỗi với tình huống đẩy box xong undo
+# Đẩy bay mẹ box ra khỏi map =)))
