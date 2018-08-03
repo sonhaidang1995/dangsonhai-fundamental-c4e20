@@ -115,6 +115,9 @@ while playing:
                         if box["x"] == obs["x"] and box["y"] == obs["y"]:
                             boxes = k
                             bien = False
+                        elif box["x"] == map["x"] or box["y"] == map["y"]:
+                            bien = False
+                            boxes = k 
                         else:
                             kd = k 
                             # hoàn toàn không hiểu có chuyện gì xảy ra ở dòng này :))))
